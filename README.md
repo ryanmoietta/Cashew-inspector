@@ -21,5 +21,5 @@ Cashew Link Inspection is a defensive cybersecurity tool designed to analyze URL
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ryanmoietta/Cashew-inspector.git
 cd Cashew-Link-Inspection
