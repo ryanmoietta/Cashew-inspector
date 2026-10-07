@@ -78,9 +78,7 @@ def normalize(url):
 
 
 
-# -----------------------------------
-# Detect @ spoofing BEFORE url parsing
-# -----------------------------------
+
 
 def detect_at_trick(url):
 
@@ -103,9 +101,7 @@ def detect_at_trick(url):
 
 
 
-# -----------------------------------
-# Get hostname safely
-# -----------------------------------
+
 
 def get_host(url):
 
@@ -124,9 +120,7 @@ def get_host(url):
 
 
 
-# -----------------------------------
-# Redirect expansion
-# -----------------------------------
+
 
 def follow_redirects(url):
 
@@ -186,9 +180,7 @@ def follow_redirects(url):
 
 
 
-# -----------------------------------
-# Shortener detection
-# -----------------------------------
+
 
 def is_shortener(host):
 
@@ -199,9 +191,7 @@ def is_shortener(host):
 
 
 
-# -----------------------------------
-# Brand impersonation
-# -----------------------------------
+
 
 def check_brand(host):
 
@@ -250,9 +240,7 @@ def check_brand(host):
 
 
 
-# -----------------------------------
-# Typo / lookalike detection
-# -----------------------------------
+
 
 def check_typos(host):
 
@@ -286,9 +274,7 @@ def check_typos(host):
 
 
 
-# -----------------------------------
-# Main analysis
-# -----------------------------------
+
 
 def analyze(url):
 
@@ -456,9 +442,7 @@ def analyze(url):
 
 
 
-# -----------------------------------
-# Output
-# -----------------------------------
+
 
 def report(url):
 
